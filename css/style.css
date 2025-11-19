@@ -90,7 +90,8 @@ h1 h2 h3 h4 h5 h6 p {
     font-size: 16px;
     font-family: "Oswald", sans-serif;
     line-height: auto;
-    padding-right: 590px;
+    width: 521px;
+    
 }
 
 .btn {
