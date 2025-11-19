@@ -44,6 +44,7 @@ h1 h2 h3 h4 h5 h6 p {
 
 .nav-link:hover {
     color: rgb(247, 92, 92);
+    transform: scale(1.2);
 }
 
 .socialPart a {
@@ -53,6 +54,16 @@ h1 h2 h3 h4 h5 h6 p {
     font-weight: 400px;
     font-family: "Oswald", sans-serif;
     transition: .4s;
+}
+.socialPart a i{
+    transition: .4s;
+}
+.socialPart a:hover{
+    color: orangered;
+}
+.socialPart a i:hover{
+    color: orangered;
+    transform: scale(1.5);
 }
 .move {
     margin-right: 5px;
@@ -82,6 +93,7 @@ h1 h2 h3 h4 h5 h6 p {
     color: #FFFFFF;
     font-size: 60px;
     font-family: "Oswald", sans-serif;
+    width: 611px;
 }
 
 .banner p {
