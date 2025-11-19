@@ -1,0 +1,157 @@
+/* All Common Css Start  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+h1 h2 h3 h4 h5 h6 p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+/* All Common Css End  */
+
+/* Heder Part Css Start  */
+
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.nav-link {
+    color: #DDDDDD;
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: "Oswald", sans-serif;
+    margin-left: 20px;
+    transition: .4s;
+}
+
+.nav-link:hover {
+    color: rgb(247, 92, 92);
+}
+
+.socialPart a {
+    margin: 0px 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: "Oswald", sans-serif;
+    transition: .4s;
+}
+.move {
+    margin-right: 5px;
+}
+
+/* Heder Part Css End  */
+
+/* Banner Part Start  */
+#bannerPart {
+    padding-top: 340px;
+    padding-bottom: 100px;
+    background: url(../images/banner\ 2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner h3 {
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 27px;
+    font-family: "Oswald", sans-serif;
+}
+
+.banner h1 {
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 60px;
+    font-family: "Oswald", sans-serif;
+}
+
+.banner p {
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    line-height: auto;
+    padding-right: 590px;
+}
+
+.btn {
+    display: flex;
+    /* padding: 0 0px; */
+}
+
+.btn span {
+    color: #121212;
+    font-size: 16px;
+}
+
+.btn a {
+    color: #121212;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 15px 25px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    transition: .4s;
+}
+.btn a:hover{
+    transform: scale(1.2);
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.89);
+    color: #FFFFFF;
+}
+.btnOne a{
+    margin-top: 50px;
+    background: #C103DA;
+}
+.btnTwo a{
+    background: #293DF0;
+    margin: 20px 0px;
+}
+.btnThree a{
+    background: #B41616;
+}
+
+.socialIcon a i{
+   padding-top: 150px;
+   color: #FFFFFF;
+   font-size: 20px;
+   font-weight: 400;
+   transition: .4s;
+}
+.facebookIn{
+    padding-left: 8px;
+}
+.linkedIn{
+    padding: 0px 15px;
+    /* padding-left: 10px; */
+
+}
+
+.twittrIn{
+    padding: 0px 15px;
+}
+.instagramIn{
+    padding: 0px 15px;
+}
+.socialIcon a i:hover{
+    color: orangered;
+}
+/* Banner Part End  */
