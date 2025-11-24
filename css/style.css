@@ -321,12 +321,14 @@ h1 h2 h3 h4 h5 h6 p {
 
 }
 
-.imageLeft {
+.imageLeft img{
     padding-top: 131px;
+    transition: .4s;
 }
 
 .imageRight img {
     padding-top: 19px;
+    transition: .4s;
 }
 
 .imageRight h3 {
@@ -351,11 +353,17 @@ h1 h2 h3 h4 h5 h6 p {
     background: #FF4655;
 }
 
-.imageLeft :hover,
+
 .imageRight img:hover {
     transform: scale(1.12);
     filter: brightness(1.15) drop-shadow(0px 8px 20px rgba(0, 0, 0, 0.3));
-    transition: 0.3s;
+    
+}
+
+.imageLeft img:hover {
+    transform: scale(1.12);
+    filter: brightness(1.15) drop-shadow(0px 8px 20px rgba(0, 0, 0, 0.3));
+    
 }
 
 .slider-arrows {
