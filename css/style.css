@@ -781,7 +781,7 @@ h1 h2 h3 h4 h5 h6 p {
     transition: .7s;
     box-shadow: 0px 5px 50px 20px rgba(255, 255, 255, 0.1);
     background: rgba(155, 155, 155, 0.25);
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .col21:hover {
@@ -789,7 +789,7 @@ h1 h2 h3 h4 h5 h6 p {
     transition: .7s;
       box-shadow: 0px 5px 50px 20px rgba(255, 255, 255, 0.1);
     background: rgba(155, 155, 155, 0.25);
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .col22:hover {
@@ -797,7 +797,7 @@ h1 h2 h3 h4 h5 h6 p {
     transition: .7s;
       box-shadow: 0px 5px 50px 20px rgba(255, 255, 255, 0.1);
     background: rgba(155, 155, 155, 0.25);
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .col23:hover {
@@ -805,7 +805,7 @@ h1 h2 h3 h4 h5 h6 p {
     transition: .7s;
       box-shadow: 0px 5px 50px 20px rgba(255, 255, 255, 0.1);
     background: rgba(155, 155, 155, 0.25);
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .four1 h3 {
