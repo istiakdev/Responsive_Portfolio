@@ -288,14 +288,16 @@ h1 h2 h3 h4 h5 h6 p {
 .card h3 {
   color: white;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 35px;
   font-family: "Barlow Condensed", sans-serif;
 }
-
+.card p{
+ font-size: 11px;
+}
 .card h3 i {
   color: #ff4655;
-  width: 12px;
-  font-size: 20px;
+  /* width: 12px; */
+  font-size: 10px;
 }
 
 /* About Part End  */
@@ -383,7 +385,7 @@ h1 h2 h3 h4 h5 h6 p {
   height: 4px;
   background: #ff4655;
   top: 162px;
-  left: 150px;
+  left: 200px;
   content: "";
 }
 .firstImg img {
@@ -408,7 +410,7 @@ h1 h2 h3 h4 h5 h6 p {
   padding-bottom: 50px;
   color: #ffffff;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 16px;
   font-family: "Barlow Condensed", sans-serif;
 }
 .flex {
@@ -422,7 +424,7 @@ h1 h2 h3 h4 h5 h6 p {
 .clockText h5 {
   color: #ffffff;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 30px;
   font-family: "Barlow Condensed", sans-serif;
   margin-right: 60px;
 }
@@ -442,7 +444,7 @@ h1 h2 h3 h4 h5 h6 p {
 .clockTextTwo h5 {
   color: #ffffff;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 30px;
   font-family: "Barlow Condensed", sans-serif;
   margin-left: 60px;
 }
