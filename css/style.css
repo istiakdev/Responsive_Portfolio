@@ -401,10 +401,11 @@ h1 h2 h3 h4 h5 h6 p {
   width: 100%;
 }
 .allImg img {
+  filter: grayscale(100%);
   transition: 0.4s;
 }
 .allImg img:hover {
-  filter: grayscale(100%);
+  filter: grayscale(0%);
   transform: scale(1.05);
 }
 .liveText h4 {
@@ -744,17 +745,19 @@ h1 h2 h3 h4 h5 h6 p {
 .teamLeft img {
   width: 100%;
   transition: .4s;
+  filter: grayscale(100%);
 }
 .teamLeft img:hover{
-  filter: grayscale(100%);
+  filter: grayscale(0%);
   
 } 
 .teamRight img {
   width: 100%;
   transition: .4s;
+  filter: grayscale(100%);
 }
 .teamRight img:hover{
-  filter: grayscale(100%);
+  filter: grayscale(0%);
   
 } 
 .pTeam {
