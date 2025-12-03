@@ -228,6 +228,16 @@
     font-size: 10.5px;
     margin-left: 240px;
 }
+.footerRight p {
+    font-size: 9px;
+    
+}
+.footerSocial i{
+  font-size: 20px;
+}
+.footerLinks {
+  margin-right: 50px;
+}
   /* Footer Part End  */
 }
 
