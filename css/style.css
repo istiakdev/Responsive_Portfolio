@@ -5,6 +5,9 @@
   box-sizing: border-box;
   outline: 0;
 }
+body{
+  overflow-x: hidden;
+}
 
 ol,
 ul {
@@ -99,7 +102,7 @@ h1 h2 h3 h4 h5 h6 p {
   color: #ffffff;
   font-size: 60px;
   font-family: "Oswald", sans-serif;
-  width: 611px;
+  
   position: relative;
 }
 
@@ -108,7 +111,7 @@ h1 h2 h3 h4 h5 h6 p {
   height: 4px;
   width: 90px;
   top: 59px;
-  right: 15px;
+  left: 510px;
   content: "";
   background: #ffffff;
 }
@@ -119,7 +122,7 @@ h1 h2 h3 h4 h5 h6 p {
   font-size: 16px;
   font-family: "Oswald", sans-serif;
   line-height: auto;
-  width: 521px;
+  padding-right: 25px;
 }
 
 .btn {
@@ -193,9 +196,9 @@ h1 h2 h3 h4 h5 h6 p {
 .aboutHeading h3 {
   color: #ffff;
   font-weight: 600;
-  font-size: 38px;
+  font-size: 45px;
   font-family: "Oswald", sans-serif;
-  width: 518px;
+  /* width: 518px; */
   height: 112px;
   line-height: auto;
   position: relative;
@@ -205,8 +208,8 @@ h1 h2 h3 h4 h5 h6 p {
   position: absolute;
   height: 3px;
   width: 120px;
-  top: 73%;
-  left: 37%;
+  top: 86%;
+  left: 35%;
   content: "";
   background: #ff4655;
 }
@@ -494,7 +497,7 @@ h1 h2 h3 h4 h5 h6 p {
   font-size: 18px;
   color: #ffffff;
   font-family: "Barlow Condensed", sans-serif;
-  width: 276px;
+  /* width: 276px; */
   padding-top: 18px;
 }
 .saleTextTwo h6 {
@@ -502,7 +505,7 @@ h1 h2 h3 h4 h5 h6 p {
   font-size: 16px;
   color: #666666;
   font-family: "Oswald", sans-serif;
-  width: 115px;
+  /* width: 115px; */
   padding-bottom: 10px;
 }
 /* .flexText{
@@ -536,6 +539,7 @@ h1 h2 h3 h4 h5 h6 p {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  
 }
 .mainSale {
   transition: 0.4s;
@@ -546,9 +550,7 @@ h1 h2 h3 h4 h5 h6 p {
 .mainSale:hover {
   transform: scale(1.05);
 }
-/* Game Sale Part End  */
 
-/* Catalog Part Start  */
 #catalogPart {
   background: #191919;
   padding-bottom: 90px;
@@ -557,13 +559,20 @@ h1 h2 h3 h4 h5 h6 p {
   color: #ffffff;
   font-weight: 500;
   font-size: 14px;
-  width: 159px;
+  /* width: 159px; */
   font-family: "Barlow Condensed", sans-serif;
   padding-bottom: 30px;
   
 }
-.bg {
+.catalogImage img{
+  width: 100%;
+  
+  
+  
+}
+.catalogBg {
   background: #212121;
+  padding: 0px 45px;
 }
 .catalogRedText h5 {
   font-weight: 500;
@@ -579,7 +588,7 @@ h1 h2 h3 h4 h5 h6 p {
   font-size: 25px;
   font-family: "Barlow Condensed", sans-serif;
   line-height: 46px;
-  width: 580px;
+  /* width: 580px; */
   text-transform: uppercase;
   padding-top: 10px;
 }
@@ -613,16 +622,15 @@ h1 h2 h3 h4 h5 h6 p {
   color: #ffffff;
   transition: 0.4s;
 }
-.flexCatalog {
-  display: flex;
-  justify-content: space-between;
-}
+
 .rightCatalog img {
   margin-left: 80px;
   padding: 40px 0px;
   overflow-x: hidden;
 }
-/* Catalog Part End  */
+/* Game Sale Part End  */
+
+
 
 /* Store Part Start  */
 #storePart {
@@ -666,7 +674,7 @@ h1 h2 h3 h4 h5 h6 p {
   font-size: 40;
   color: #ffffff;
   font-family: "Oswald", sans-serif;
-  width: 61px;
+  /* width: 61px; */
   margin: 0 auto;
   padding-top: 20px;
 }
@@ -793,7 +801,7 @@ h1 h2 h3 h4 h5 h6 p {
   font-size: 16px;
   color: #ffffff;
   font-family: "Oswald", sans-serif;
-  width: 300px;
+  /* width: 300px; */
   padding-bottom: 10px;
 }
 .teamBtn {
@@ -826,7 +834,7 @@ h1 h2 h3 h4 h5 h6 p {
   font-size: 30px;
   color: #ffffff;
   font-family: "Barlow Condensed", sans-serif;
-  width: 63px;
+  /* width: 63px; */
   padding: 20px 0px 25px 30px;
 }
 .overlayThree {
@@ -842,9 +850,9 @@ h1 h2 h3 h4 h5 h6 p {
   font-size: 30px;
   color: #ffffff;
   font-family: "Barlow Condensed", sans-serif;
-  width: 63px;
+  /* width: 63px; */
   padding: 20px 0px 25px 30px;
-  width: 73px;
+  /* width: 73px; */
 }
 .overlayFour {
   position: absolute;
@@ -859,7 +867,7 @@ h1 h2 h3 h4 h5 h6 p {
   font-size: 30px;
   color: #ffffff;
   font-family: "Barlow Condensed", sans-serif;
-  width: 63px;
+  /* width: 63px; */
   padding: 20px 0px 25px 30px;
 }
 .teamFlex{

@@ -1,0 +1,248 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* header part start  */
+  .navbar-toggler i {
+    color: #ffff;
+  }
+  .navbar-nav {
+    background: #ff4655;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .socialPart {
+    background: #ff4655;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  /* header part End  */
+
+  /* Banner Part Start  */
+  #bannerPart {
+    padding-top: 150px;
+    padding-bottom: 50px;
+  }
+  .banner h1 {
+    font-size: 45px;
+    padding-right: 165px;
+    line-height: 60px;
+  }
+  .banner h1::after {
+    width: 60px;
+    top: 105px;
+    left: 243px;
+  }
+  .socialIcon a i {
+    padding-top: 40px;
+  }
+  /* Banner Part End  */
+
+  /* About Part Start  */
+  .aboutHeading h3 {
+    font-size: 32px;
+  }
+  .aboutHeading h3::before {
+    top: 60%;
+    width: 60px;
+    left: 164px;
+  }
+  .gamePlatform h3 {
+    padding-top: 50px;
+}
+  /* About Part End  */
+  /* Popular Game Part Start  */
+  #popularGamePart {
+    padding-top: 40px;
+}
+#liveStreamPart h3 {
+    font-size: 25px;
+    padding-top: 44px;
+    padding-right: 200px;
+    
+}
+#liveStreamPart h3::after {
+    
+    width: 71px;
+    height: 4px;
+    top: 97px;
+    left: 103px;
+   
+}
+.firstImg img {
+    padding-bottom: 30px;
+}
+.secondImg img {
+    padding-bottom: 20px;
+}
+
+  /* Popular Game Part End  */
+
+  /* Game Sale Part Start  */
+  .saleText h4 {
+    font-size: 28px;
+ 
+}
+#gameSalePart {
+    padding-top: 35px;
+}
+.saleTextTwo{
+    padding-bottom: 30px;
+}
+  /* Game Sale Part End  */
+
+  /* Catalog Part Start */
+.rightCatalog img {
+    margin: 0 auto;
+    padding-top: -50px;
+}
+.catalogWhiteText h4 {
+    font-size: 20px;
+    line-height: 31px;
+ 
+}
+.catalogBtn {
+    margin-top: 25px;
+}
+  /* Catalog Part End */
+
+  /* Store Part Start  */
+  #storePart{
+    padding-top: 30px;
+    padding-bottom: 25px;
+  }
+  .storeText h4{
+    font-size: 40px;
+  }
+  .storeText h4::after {
+    width: 76px;
+    left: 218px;
+}
+.firstStore h4 {
+    text-align: center;
+}
+.firstStore h5 {
+    text-align: center;
+}
+.firstStore {
+    margin-bottom: 30px;
+}
+.positionArrow a i {
+    left: -10px;
+    top: 250px;
+    font-size: 40px;
+}
+.positionArrowTwo a i {
+    right: -5px;
+    top: 250px;
+    font-size: 40px;
+}
+  /* Store Part End  */
+
+  /* Team Part Start  */
+#teamPart {
+    padding: 50px 0px;
+}
+.teamText h4::after {
+    width: 80px;
+    right: 93px;
+
+}
+.teamLeft img {
+    padding-bottom: 20px;
+}
+.teamMain h4 {
+   line-height: 24px;
+    font-size: 25px;
+}
+.teamBtn a {
+    font-size: 11px;
+  
+}
+.teamMain p {
+    font-size: 15px;
+    padding-bottom: 0px;
+    line-height: 24px;
+
+}
+.overlayTwo h4 {
+    font-size: 28px;
+}
+.overlayThree h4 {
+    font-size: 28px;
+    padding: 12px 0px 25px 30px;
+}
+.overlayFour h4 {
+    font-size: 28px;
+    padding: 18px 0px 25px 30px;
+}
+.teamFlex {
+    margin-top: -12px;
+}
+  /* Team Part End  */
+  /* Faq Paaart Start  */
+  .faqHeading h3 {
+    font-size: 22px;
+    line-height: 35px;
+
+}
+.faqHeading h3::after {
+    height: 4px;
+    width: 70px;
+    right: 153px;
+}
+.faqBody {
+    padding: 50px 0 75px 0;
+}
+.faqPoint h4 {
+    font-size: 20px;
+    padding: 5px 10px 6px;
+}
+.faqText h3 {
+    font-size: 17px;
+    padding-left: 10px;
+}
+.faqText p {
+    font-size: 14px;
+    padding: 10px 0 0 10px;
+    
+}
+  /* Faq Paaart End  */
+
+  /* Footer Part Start  */
+  .footerTopText h3 {
+    font-size: 21px;
+    line-height: 40px;
+    padding-right: 50px;
+    
+}
+.footerTopInput button {
+    top: 118px;
+    right: 28px;
+    padding: 10px;
+    font-size: 11px;
+    border-radius: 50px;
+    width: 17%;
+}
+.footerTopInput input {
+    width: 50%;
+    font-size: 10.5px;
+    margin-left: 240px;
+}
+  /* Footer Part End  */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
