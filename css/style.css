@@ -295,6 +295,12 @@ h1 h2 h3 h4 h5 h6 p {
   font-weight: 600;
   font-size: 35px;
   font-family: "Barlow Condensed", sans-serif;
+  display: inline-block;
+}
+.labelFlex{
+  display: flex;
+  justify-content: center;
+  
 }
 .card p {
   font-size: 11px;
