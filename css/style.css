@@ -5,7 +5,7 @@
   box-sizing: border-box;
   outline: 0;
 }
-body{
+body {
   overflow-x: hidden;
 }
 
@@ -102,7 +102,7 @@ h1 h2 h3 h4 h5 h6 p {
   color: #ffffff;
   font-size: 60px;
   font-family: "Oswald", sans-serif;
-  
+
   position: relative;
 }
 
@@ -297,10 +297,9 @@ h1 h2 h3 h4 h5 h6 p {
   font-family: "Barlow Condensed", sans-serif;
   display: inline-block;
 }
-.labelFlex{
+.labelFlex {
   display: flex;
   justify-content: center;
-  
 }
 .card p {
   font-size: 11px;
@@ -545,7 +544,6 @@ h1 h2 h3 h4 h5 h6 p {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  
 }
 .mainSale {
   transition: 0.4s;
@@ -568,13 +566,9 @@ h1 h2 h3 h4 h5 h6 p {
   /* width: 159px; */
   font-family: "Barlow Condensed", sans-serif;
   padding-bottom: 30px;
-  
 }
-.catalogImage img{
+.catalogImage img {
   width: 100%;
-  
-  
-  
 }
 .catalogBg {
   background: #212121;
@@ -635,8 +629,6 @@ h1 h2 h3 h4 h5 h6 p {
   overflow-x: hidden;
 }
 /* Game Sale Part End  */
-
-
 
 /* Store Part Start  */
 #storePart {
@@ -744,7 +736,6 @@ h1 h2 h3 h4 h5 h6 p {
   text-align: end;
   padding-bottom: 50px;
   position: relative;
-  
 }
 .teamText h4::after {
   position: absolute;
@@ -758,22 +749,20 @@ h1 h2 h3 h4 h5 h6 p {
 
 .teamLeft img {
   width: 100%;
-  transition: .4s;
+  transition: 0.4s;
   filter: grayscale(100%);
 }
-.teamLeft img:hover{
+.teamLeft img:hover {
   filter: grayscale(0%);
-  
-} 
+}
 .teamRight img {
   width: 100%;
-  transition: .4s;
+  transition: 0.4s;
   filter: grayscale(100%);
 }
-.teamRight img:hover{
+.teamRight img:hover {
   filter: grayscale(0%);
-  
-} 
+}
 .pTeam {
   padding-top: 30px;
 }
@@ -811,9 +800,9 @@ h1 h2 h3 h4 h5 h6 p {
   padding-bottom: 10px;
 }
 .teamBtn {
-  transition: .4s;
+  transition: 0.4s;
 }
-.teamBtn:hover{
+.teamBtn:hover {
   transform: scale(1.05);
 }
 .teamBtn a {
@@ -876,273 +865,100 @@ h1 h2 h3 h4 h5 h6 p {
   /* width: 63px; */
   padding: 20px 0px 25px 30px;
 }
-.teamFlex{
+.teamFlex {
   display: flex;
   justify-content: space-between;
 }
-.teamSocial a i{
-  transition: .4s;
+.teamSocial a i {
+  transition: 0.4s;
 }
-.teamSocial a i:hover{
+.teamSocial a i:hover {
   transform: scale(1.1);
   background: #ffffff;
   border-radius: 50%;
 }
-.teamSocial a i{
+.teamSocial a i {
   color: #ff4655;
   font-size: 30px;
   font-weight: 500;
-  
-  
 }
 /* Team Part End  */
 
 /* FAQ Part Start */
 #faqPart {
-    background: #121212;
-    padding: 55px 0 200px 0;
+  background: #121212;
+  padding-top: 55px;
+  padding-bottom: 200px;
 }
-
-.faqHeading h3 {
-    font-size: 38px;
-    font-weight: 600;
-    color: #fff;
-    line-height: 46px;
-    font-family: "Barlow Condensed", sans-serif;
-    letter-spacing: 2px;
-    position: relative;
-}
-
-.faqHeading h3::after {
-    position: absolute;
-    height: 3px;
-    width: 100px;
-    right: 79px;
-    bottom: 8px;
-    background: #FF4655;
-    content: "";
-}
-
-.faqBody {
-    display: flex;
-    padding: 125px 0 75px 0;
-}
-
-.faqPoint h4 {
-    font-size: 38px;
-    font-weight: 600;
-    color: #fff;
-    font-family: "Barlow Condensed", sans-serif;
-    background: #FF4655;
-    display: inline-block;
-    padding: 10px 20px 12px;
-}
-
 .faqText h3 {
-    font-size: 22px;
-    font-weight: 600;
-    color: #FF4655;
-    font-family: "Barlow Condensed", sans-serif;
+  color: #ffffff;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  padding-right: 464px;
+  position: relative;
 }
-
-.faqText p {
-    font-size: 16px;
-    font-weight: 400;
-    color: #666;
-    font-family: "Oswald", sans-serif;
-    padding: 10px 0 0 0;
-    line-height: 24px;
+.faqText h3::after {
+  background: #ff4655;
+  width: 128px;
+  height: 3px;
+  position: absolute;
+  content: "";
+  top: 77px;
+  left: 440px;
 }
-
-.hrLine {
-    padding: 1px;
-    background: #666;
+.faqNumber h3{
+  background: #FF4655;
+  color: #ffffff;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 30px;
+  margin-top: 115px;
+  text-align: center;
+ 
+  
 }
-
-.vrLinePosition {
-    position: relative;
+.faqFlex{
+  display: flex;
 }
-
-.vrLine {
-    position: absolute;
-    padding: 1px;
-    background: #666;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(90deg);
+.faqNumText h3{
+  color: #ffffff;
+  font-size: 17px;
+  margin-top: 117px;
+  font-weight: 600;
+  font-family: "Barlow Condensed", sans-serif;
+  margin-left: 30px;
+  
 }
+.faqNumText p{
+  font-weight: 400;
+  font-size: 13px;
+  font-family: "Oswald", sans-serif;
+  line-height: 24px;
+  margin-left: 30px;
+  color: #666666;
 
+}
+.faqBorder{
+  width: 1320px;
+  height: 1px;
+  background: #666666;
+}
 /* FAQ Part End */
 
 /* Footer Part Start */
-#footerPart {
-    background: #191919;
-    padding: 100px 0;
+#footerPart{
+  background: #191919;
+  padding-top: 112px;
+  padding-bottom: 308px;
 }
-
-.footerTopPart {
-    position: relative;
-}
-
-.footerTop {
-    position: absolute;
-    background: #FF4655;
-    padding: 30px 15px 30px 30px;
-    display: flex;
-    flex-wrap: wrap;
-    top: -178px;
-    left: 0;
-}
-
-.footerTopText h3 {
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 48px;
-    color: #fff;
-    font-family: "Barlow Condensed", sans-serif;
-    padding-right: 25px;
-}
-
-.footerTopInput input {
-    padding: 10px;
-    background: #fff;
-    border: none;
-    border-radius: 50px;
-    width: 100%;
-    font-size: 16px;
-    font-weight: 500;
-    color: #666;
-    padding-left: 20px;
-    font-family: "Barlow Condensed", sans-serif;
-    position: relative;
-}
-
-.footerTopInput button {
-    position: absolute;
-    top: 30px;
-    right: 14px;
-    padding: 10px;
-    background: #191919;
-    font-size: 16px;
-    font-weight: 500;
-    color: #fff;
-    font-family: "Barlow Condensed", sans-serif;
-    border: none;
-    border-radius: 50px;
-    width: 10%;
-}
-
-.footerBody {
-    display: flex;
-    padding-top: 50px;
-}
-
-.footerRight p {
-    font-size: 16px;
-    font-weight: 400;
-    font-family: "Oswald", sans-serif;
-    color: #666;
-    line-height: 24px;
-    text-transform: uppercase;
-    padding: 30px 45px 60px 0;
-}
-
-.footerSocial {
-    display: flex;
-}
-
-.socialIconTwo {
-    padding: 10px 14px;
-    border-radius: 50%;
-    background: #212529;
-    margin-right: 10px;
-    transition: .5s;
-}
-
-.socialIconTwo:hover {
-    background: #FF4655;
-    transform: scale(1.1);
-}
-
-.socialIconTwo a {
-    color: #fff;
-    font-size: 30px;
-}
-
-.footerLinks h3 {
-    font-size: 25px;
-    font-weight: 600;
-    font-family: "Barlow Condensed", sans-serif;
-    color: #fff;
-}
-
-.footerLinks a {
-    font-size: 16px;
-    font-weight: 400;
-    font-family: "Oswald", sans-serif;
-    color: #666;
-    padding: 30px 20px 0 0;
-    display: inline-block;
-    transition: .5s;
-}
-
-.footerLinks a:hover {
-    color: #FF4655;
-}
-
-.footerTeams h3 {
-    font-size: 25px;
-    font-weight: 600;
-    font-family: "Barlow Condensed", sans-serif;
-    color: #fff;
-}
-
-.footerTeams a {
-    font-size: 16px;
-    font-weight: 400;
-    font-family: "Oswald", sans-serif;
-    color: #666;
-    padding: 30px 40px 0 0;
-    display: inline-block;
-    transition: .5s;
-}
-
-.footerTeams a:hover {
-    color: #FF4655;
-}
-
-.footerGallary h3 {
-    font-style: 25px;
-    font-weight: 600;
-    color: #fff;
-    font-family: "Barlow Condensed", sans-serif;
-    padding-bottom: 30px;
-}
-
-.footerGallary img {
-    width: 100%;
-}
-
 /* Footer Part End */
 
 /* Copyright Part Start */
-#copyrightPart {
-    background: #191919;
-}
-
-.copyrightHr {
-    padding: 0.5px;
-    background: #666;
-}
-
-.copyrightHeading h3 {
-    text-align: center;
-    padding: 25px 0;
-    font-size: 20px;
-    font: 400px;
-    line-height: 24px;
-    color: #fff;
-    font-family: "Barlow Condensed", sans-serif;
-}
 
 /* Copyright Part End */
